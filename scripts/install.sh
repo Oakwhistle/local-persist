@@ -4,7 +4,8 @@ set -e
 
 VERSION="v1.3.0"
 
-gitDir=$(realpath `dirname $BASH_SOURCE`/..)
+gitDir=/usr/local/bin/local-persist/
+#gitDir=$(realpath `dirname $BASH_SOURCE`/..)
 echo $gitDir
 
 # uname -s, uname -m
